@@ -1,0 +1,47 @@
+# Soundwave Audio Pack .gitignore
+
+# Output/converted files - users will generate these locally
+converted/
+output/
+
+# Audio files - don't track user's source or processed audio
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.aiff
+*.au
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# System files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test/experimental files
+test*.bat
+experimental*.bat
+backup*.bat
+old*.bat
+temp*.bat
+
+# Log files
+*.log
+
+# Windows specific
+ehthumbs.db
+ehthumbs_vista.db
