@@ -15,5 +15,5 @@ for /r %%f in (*.wav) do (
     )
 )
 
-echo WAV resampling 44.1 kHz → 48 kHz (Mono) complete!
+echo WAV resampling 44.1 kHz → 48 kHz -Mono- complete!
 pause

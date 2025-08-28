@@ -49,6 +49,8 @@ Soundwave Audio Pack/
 ├── 0 - Convert WAV to OGG.bat                            # Convert WAV to OGG Vorbis
 ├── 0 - Convert WAV to WMA.bat                            # Convert WAV to Windows Media Audio
 ├── 0 - Convert WMA to WAV.bat                            # Convert WMA files to WAV
+├── 1 - WAV Compression 44.1 kHz.bat                      # Compress audio (44.1 kHz)
+├── 1 - WAV Compression 48 kHz.bat                        # Compress audio (48 kHz)
 ├── 1 - WAV Sample Rate - 44.1 kHz to 48 kHz Mono.bat     # Upsample mono audio
 ├── 1 - WAV Sample Rate - 44.1 kHz to 48 kHz Stereo.bat   # Upsample stereo audio
 ├── 1 - WAV Sample Rate - 48 kHz to 44.1 kHz Mono.bat     # Downsample mono audio
@@ -81,7 +83,7 @@ Soundwave Audio Pack/
 
 2. **Download the Soundwave Audio Pack**:
 ```bash
-git clone https://github.com/yourusername/soundwave-audio-pack.git
+git clone https://github.com/RLR64/Soundwave-Audio-Pack
 ```
 
 3. Navigate to the Soundwave Audio Pack folder and you're ready to process audio!
@@ -169,6 +171,7 @@ Remove intermediate or unwanted files:
 2. Normalize audio at appropriate sample rate
 3. Convert to MP3 320kbps for high quality
 4. Convert to MP3 192kbps for smaller file sizes
+5. Compress audio files using a modern compression inspired by Audacity
 
 ## Format Recommendations
 
